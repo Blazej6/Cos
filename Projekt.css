@@ -1,0 +1,1020 @@
+@font-face {
+    font-family:Bob;
+    src: url(fonts/BebasNeue.otf);
+}
+@font-face {
+    font-family:Bob2;
+    src: url(fonts/LondrinaSolid-Regular.otf);
+}
+@font-face {
+    font-family:Bob3;
+    src: url(fonts/Arial-BoldMT.ttf);
+}
+@font-face {
+    font-family:Bob4;
+    src: url(fonts/Arial-MT.ttf);
+}
+@font-face {
+    font-family:Bob5;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family:Bob6;
+    src: url(fonts/Arial-ItalicMT.otf);
+}
+body {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative;
+}
+.jumbotron {
+    background: transparent !important;
+    height: 580px;
+} 
+.container {
+    background: transparent !important;
+    width: 80% !important;
+}
+.top-section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+}
+.bottom-section {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.Ninjas {
+    font-size: 48px;
+    color: rgb(255,255,255);
+    font-family: "Bob2";
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+}
+
+.smallFont {
+    font-size: 72px;
+    line-height: 100%;
+}
+.bigFont {
+    font-size: 128px;
+    line-height: 100%;
+}
+.wecreate {
+    text-align: left;
+    color: rgb(255,255,255) !important;
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+    font-family: Bob;
+}
+.Home {
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.2);
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+    width: 45px;
+}
+.menu {
+    list-style: none;
+    font-family: Bob3;
+}
+.menu-item {
+    display: inline-block; 
+    padding: 8px;
+}
+.menu-link {
+    color: rgb(255,255,255) !important; 
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold !important;
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);;
+    
+}
+.menu-link:hover {
+    text-decoration: none !important;
+}
+.mainloremipsum {
+    width: 589px;
+    height: 61px;
+    font-size: 14px !important;
+    color: rgb(34,78,89) !important;
+    font-family: "Bob4" !important;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.25) !important;
+
+}
+.button-arrow {
+    display: inline;
+}
+.arrow {
+    position: relative;
+    left: 40px;
+    bottom: 29px
+}
+.btn {
+    font-family: Bob;
+    width:215px;
+    height: 60px;
+    font-size: 30px !important;
+}
+.check {
+    text-align: center;
+}
+.jumbotron {
+    padding-top: 0 !important;
+    margin: 0px !important;
+    height: auto !important;
+}
+
+
+
+.white-background {
+    background-image: url('img/White-background.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.overview {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 93% !important;
+    text-align: left;
+}
+.itools {
+    width: 26px;
+    height: 25px;
+  }
+.iinvention {
+    width: 28px;
+    height: 35px;
+    border-radius: 1px;
+    background-color: #85bbc1;
+}
+.ihearth {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    background-color: #85bbc1;
+}
+.iphone {
+    width: 16px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #85bbc1; 
+}
+.idroid {
+    width: 33px;
+    height: 25px;
+    background-color: #85bbc1;
+}
+.itwitter {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    bottom: 12px;
+    left: 16px;
+}
+.iconandheadingdiv {
+    margin: 7px;
+}
+.iconheading {
+    position: relative;
+    top: 4px;
+    left: 15px;
+    font-size: 22px;
+    color: rgb(90,150,146);
+    font-family: "Bob2";
+}
+.icon-text {
+    font-size: 12px;
+    color: rgb(126,126,126);
+    font-family: "Bob4";
+    height: 93px;
+    width: 289px !important;
+}
+.icontext-tools {
+    width: 289px;
+}
+.icontext-innovation {
+    width: 285px !important;
+}
+.icontext-standards {
+    width: 288px;
+}
+.icontext-mobiledesktop {
+    width: 289px;
+}
+.icontext-gamessocial {
+    width: 289px;
+}
+.icontext-twitter {
+    width: 229px;
+    height: 54px;
+    font-size: 11px;
+    color: rgb(81,133,130);
+    display: block;
+    font-family: "Bob4";
+    line-height: 125%;
+
+    
+}
+.twitter-container {
+    
+}
+.twitter-cloud {
+    background-image: url(img/Twitter-cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 248px;
+    height: 98px;
+    padding-top: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+    left: 28px;
+    bottom: 6px;
+}
+
+.icon-component {
+    position: relative;
+    top: 45px;
+    margin: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 288.991px;
+}
+.UPB {
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+.paper-background {
+    width: 100%;
+    position: relative;
+    bottom: 220px;
+    z-index: -1;
+}
+.three {
+    margin-top: -200px;
+}
+.flexdiv {
+    display: flex;
+    height: 130px;
+}
+
+.heading-justify-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+    width: 100% !important;
+    text-align: center;
+}
+.firstpart-heading {
+    margin-bottom: -10px;
+    padding: 0px;
+    font-size: 43px;
+    color: rgb(255,255,255);
+    font-family: "Bob";
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+    margin: 0px;
+}
+.secondpart-heading {
+    font-size: 129px;
+    color: rgb(255,255,255);
+    font-family: "Bob";
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+}
+.appsloremipsum {
+    width: 474px;
+    height: 142px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Bob4";
+    text-shadow: 0px 1px 0px rgba(34,78,89,0.25);
+}
+.first-section {
+    width: 185px;
+}
+.second-section {
+    width: 104px;
+}
+.third-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e0dcd1;
+}
+
+.both-sections {
+    padding-top: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 10px !important;   
+    display: flex;
+}
+
+.crazy-app {
+    width: 289px;
+    height: 265px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+    background-color: #f5f1e5; 
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.crazy-heading-one {
+    font-size: 22px;
+    color: #99ab49;
+    font-family: "Bob2";
+    margin-right: 0;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.crazy-text {   
+    height: 111px;
+    font-size: 12px;
+    color: rgb(126,126,126);
+    font-family: "Bob4";
+    display: block;
+    padding-right: 12px;
+    margin-right: 0;
+}
+.yellow-rectangle {
+    box-shadow: -0.017px 1px 3px rgba(0,0,0,0.2);
+    background-image: linear-gradient(0deg, #ffbb49 0%, #ffd971 100%);
+    border: 1px solid;
+    color: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: auto;
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+.view-more {
+    font-size: 18px;
+    color: rgb(255,255,255);
+    font-family: "Bob2";
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    background-color: #e74b47;
+    border: 1px solid #e74b47;
+    margin-top: 22px;
+
+}
+
+
+
+.google-apple {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+}
+
+.apple {
+    width: 116px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f5f1e5;
+    border: 1px solid #dfdbd1;
+    display: flex;
+    padding: 6px;
+    margin-right: 13px;
+}
+
+.whole-apple {
+    display: flex;
+}
+.apple-phone {
+    width: 15px;
+    height: 28px;
+    border-radius: 2px;
+    position: relative;
+    
+}
+.apple1 {
+    font-size: 10px;
+    color: rgb(129,131,134);
+    font-family: "Bob5";
+    position: relative;
+    bottom: 6px;
+}
+.apple2 {
+    font-size: 18px;
+    color: rgb(129,131,134);
+    font-family: "Bob5";
+    position: relative;
+    bottom: 13px;
+}
+
+.google {
+    width: 116px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f5f1e5;
+    border: 1px solid #dfdbd1;
+    margin-left: 14px;
+}
+
+.google1 {
+    font-size: 6px;
+    color: rgb(129,131,134);
+    font-family: "Bob4";
+    position: relative;
+    right: 10px;
+    bottom: 4px; 
+}
+.google-logo {
+    position: relative;
+    bottom: 13px;
+}
+
+.three-apps{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-flow: row wrap;
+}
+.center-indicators {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.slider-indicators {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    color: transparent;
+}
+
+.indicator-one {
+    background-color: #f5f1e5;
+    border: transparent;
+}
+.indicator-two {
+    background-color: #e74b47;
+    border: 1px solid;
+}
+.indicator-three {
+    background-color: #f5f1e5;
+    border: transparent;
+}
+
+.team-heading {
+    display: block;
+    text-align: left;
+}
+
+.team-heading-one {
+    font-size: 30px;
+    color: #599591;
+    font-family: "Bob";
+    position: relative;
+    top: 30px;
+}
+.team-heading-two {
+    font-size: 108px;
+    color: #599591;
+    font-family: "Bob";
+}
+
+.team-members-container { 
+    display: flex;
+    flex-flow: row wrap;
+}
+.team-member {
+    display: flex;
+    width: 480px;
+    margin-bottom: 40px;
+}
+.outer-round-photo { 
+    width: 182px;
+    height: 182px;
+    border-radius: 91px;
+    background-color: #7fbbbd;
+    border: 1px solid #5d8c90;
+    padding: 6px;
+}
+.inner-round-photo {
+    width: 168px;
+    height: 168px;
+    border-radius: 84px;
+    background-color: #ffffff;
+    border: 1px solid #65979b;
+}
+.member-description-container {
+    display: block;
+    text-align: left;
+    margin-left: 17px;
+    position: relative;
+}
+
+.team-member-heading {}
+
+.name-heading {
+    font-size: 24px;
+    color: #599591;
+    font-family: "Bob2";
+}
+.position-heading {
+    font-size: 18px;
+    color: #99ab49;
+    font-family: "Bob2";
+    position: relative;
+    bottom: 7px;
+}
+.description-text {
+    display: block;
+    width: 248px;
+    font-size: 12px;
+    color: rgb(126,126,126);
+    font-family: "Bob4";
+    position: relative;
+    bottom: 5px;
+}
+.social-media-buttons {
+    position: relative;
+    top: 5px;
+}
+.logo {
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.linkedin {
+    background-image: url(img/linkedin-logo.png);    
+}
+.facebook {
+    background-image: url(img/facebook-logo.png);
+}
+.twitter {
+    background-image: url(img/twitter-logo.png);
+}
+.pink-logo {
+    background-image: url(img/pink-logo.png);
+}
+.green-logo {
+    background-image: url(img/green-logo.png);
+}
+
+.form-container {
+    position: relative;
+    bottom: 200px;
+}    
+.smaller-form-heading {
+    font-size: 42px;
+    color: rgb(255,255,255);
+    font-family: "Bob";
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+}
+.bigger-form-heading {
+    font-size: 88px;
+    color: rgb(255,255,255);
+    font-family: "Bob";
+    text-shadow: 0px 2px 0px rgba(34,78,89,0.25);
+    position: relative;
+    bottom: 25px;
+}
+.form-loremipsum {
+    width: 409px;
+    height: 132px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Bob4";
+    text-shadow: 0px 1px 0px rgba(34,78,89,0.25);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+    margin-top: -5px;
+}
+
+.inline-form-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-font {
+    font-size: 11px;
+    color: rgb(127,115,103);
+    font-family: "Bob6";
+}
+
+.form-size {
+    width: 505px;
+    height: 55px;
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.15);
+    background-color: #ffffff;
+    border: 1px solid #478fa2;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 7.5px;
+    margin-left: 0px;
+}
+.mind {
+    height: 185px;
+    line-height: 50px;
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.15);
+    padding-top: 4px;
+}
+.math {
+    width: 65px;
+    box-shadow: 0px 1px 0px rgba(34,78,89,0.25);
+}
+.recaptcha-container {
+    width: 229px;
+    display: flex;
+}
+.captcha-send {
+    margin: 0;
+    width: 505px;
+    height: 35px;
+    display: flex;
+    position: relative;
+}
+.recaptcha-text {
+    display: block;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Bob4";
+    position: relative;
+    top: 18px;
+    margin-left: 2px;
+    line-height: 120%;
+}
+.form-inputs-container {
+    width: 505px;
+}
+
+.send-button {
+    width: 130px;
+    height: 53px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    background-color: #e74b47;
+    border: 1px solid #e74b47;
+    font-size: 30px;
+    color: rgb(255,255,255);
+    font-family: "Bob2";
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.form-message-container {
+    margin-bottom: 50px;
+    width: 398px;
+    height: 131px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    background-image:url(img/Quicknote-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16px;
+    padding-top: 9px;
+}
+.form-head-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.form-message-header {
+    font-size: 24px;
+    color: rgb(90,150,146);
+    font-family: "Bob2";
+    margin: 0;
+
+}
+.form-message-date {
+    width: 123px;
+    height: 30px;
+    font-size: 11px;
+    color: rgb(149,149,149);
+    font-family: "Bob4";
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.form-message-text {
+    display: block;
+    margin-top: 4px;
+    width: 382px;
+    height: 82px;
+    font-size: 12px;
+    color: rgb(126,126,126);
+    font-family: "Bob4";
+}
+.big-bad-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.margin-bottom-class {
+    margin-bottom: 50px;
+}
+.quicknotes-archive {
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Bob6";
+    text-shadow: 0px 1px 0px rgba(34,78,89,0.25);
+}
+.arrow-left {
+    font-size: 9px;
+    color: #4f7b7d;
+    font-family: "Bob3";
+    font-weight: bold;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.25);
+    background: transparent;
+    border: transparent;
+}
+.arrow-left: hover {
+    color: #ffffff;
+}
+.number-active {
+    font-size: 11px;
+    color: rgb(255,255,255);
+    font-family: "Bob3";
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(34,78,89,0.25);
+    background: transparent;
+    border: transparent;
+}
+.number-inactive {
+    font-size: 11px;
+    color: #4e7b7e;
+    font-family: "Bob3";
+    font-weight: bold;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.25);
+    background: transparent;
+    border: transparent;
+}
+
+.arrow-right {
+    font-size: 10px;
+    color: #4f7b7d;
+    font-family: "Bob3";
+    font-weight: bold;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.25);
+    background: transparent;
+    border: transparent;
+}
+.arrow-right: hover {
+    color: #ffffff;
+}
+.quicknotes-indicators {
+    position: absolute;
+    right: 0;
+}
+.second-sbbd {
+    position: relative;
+    bottom: 28px;
+}
+.webpage-footer {
+    background-image: url(img/Bottom-paper-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.copyright-ninjas {
+    font-family: "Bob2";
+    font-size: 14px;
+    color: #599591;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.2);
+}
+.bottom-mini-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 9px;
+    color: #599591 !important;
+    text-decoration: none;
+    text-shadow: -0.017px 1px 0px rgba(255,255,255,0.2);
+}
+.navbar-click {
+    cursor:pointer;
+    font-family: "Bob3";
+    color: #599591;
+}
+.navbar-click:hover {
+    text-decoration: none !important;
+    cursor:pointer;
+}
+.navbar-separator {
+    color: #599591;
+}
+.fb-like {
+    width: 100px;
+    height: 100px;
+}
+.social-media-buttons {
+    display: flex;
+}
+.s-media-button {
+    margin-right: 5px;
+}
+.Copyright-container {
+    width: 100%;
+}
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.up-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    background-color: rgb(217, 225, 173);
+    position: absolute;
+    bottom: 200px;
+    right: 15px;
+    text-align: center;
+}
+.triangle-upbutton {
+    width: 31px;
+    height: 19px;
+    position: relative;
+
+}
+.up-text {
+    font-size: 49px;
+    color: rgb(245,241,230);
+    font-family: "Bob2";
+    position: relative;
+    bottom: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .paper-background {
+    bottom: 50px;
+    }
+    .heading {
+    margin-top: 165px;
+    }
+    .container {
+        width: 99% !important;
+    }  
+}
+@media screen and (max-width: 900px) {
+    .paper-background {
+    bottom: 80px;
+    }
+    .heading {
+    margin-top: 145px;
+    }
+    .three-apps {
+        justify-content: center;
+    }
+    .form-inputs-container {
+    width: 100%;
+    }
+    .form-size {
+    width: 100%;
+    }
+    .captcha-send {
+    width: 100%;
+    }
+    .fistpart-heading {
+        text-align: center;
+    }
+    .secondpart-heading {
+        font-size: 100px;
+    }
+    .heading {
+        text-align: center;
+    }
+    .heading-justify-div {
+        justify-content: center;
+        text-align: left;
+    }
+    .wecreate {
+        width: 99%;
+        text-align: left;
+    }
+    .smallFont {
+        font-size: 36px;
+    }
+    .bigFont {
+        font-size: 64px;
+    }
+    .mainloremipsum {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .align-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button-arrow {
+        margin-top: 80px;
+        text-align: center;
+        width: 80% !important
+    }
+    .arrow {
+        width: 70px;
+        height: 70px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .Home {
+        bottom: 5px;
+        left: 0px;
+        margin-bottom: -10px;
+    }
+    .shadow-img {
+        margin: 0;
+    }
+    .team-member {
+    flex-wrap: wrap;
+    width: auto;
+    }
+    .second-sbbd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .form-message-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: auto;
+    justify-content: center;    
+    }
+    .form-message-text {
+    display: block;
+    width: auto;
+    height: auto;
+    }
+    .quicknotes-indicators {
+        margin-top: 20px;
+        position: static;
+    }
+    .team-heading-one {
+    font-size: 30px;
+    top: 20px;
+    }
+    .team-heading-two {   
+    font-size: 74px;
+    }
+    .form-heading {
+        margin-top: 150px;
+    }
+    .bigger-form-heading {
+        font-size: 60px;
+    }
+    .up-button {
+    bottom: 130px;
+    }
+}
+}
+
