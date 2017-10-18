@@ -847,7 +847,7 @@ body {
     width: 100px;
     height: 100px;
 }
-.social-media-buttons {
+.social-media-buttons-two {
     display: flex;
 }
 .s-media-button {
@@ -886,6 +886,9 @@ body {
     font-family: "Bob2";
     position: relative;
     bottom: 10px;
+}
+.twitter-follow-button {
+    margin: 3px;
 }
 
 
@@ -1014,6 +1017,13 @@ body {
     }
     .up-button {
     bottom: 130px;
+    }
+    .social-media-buttons-two {
+        flex-direction: column;
+    }
+    .shadow-img {
+        display: flex;
+        flex-direction: column;
     }
 }
 }
